@@ -13,12 +13,13 @@ Bootstrap 4, Javascript ES6, VSCode 1.63.2, CSS, HTML, Chrome Browser.
 
 ## Results
 1. We have build a webpage on belly button data and deployed it on github pages https://sucharita1.github.io/.
-![github_page](?raw=true)
+![github_page](https://github.com/sucharita1/Plotly/blob/474511b531b72dc51c748604e9efea0bc056a09e/static/images/github_page.png?raw=true)
 
-The html template can be found as [index.html](), the css stylesheet can be found as [style.css](), charts and dashboard functionality can be found in [charts.js]().
+The html template can be found as [index.html](https://github.com/sucharita1/Plotly/blob/474511b531b72dc51c748604e9efea0bc056a09e/index.html), the css stylesheet can be found as [style.css](https://github.com/sucharita1/Plotly/blob/474511b531b72dc51c748604e9efea0bc056a09e/static/css/style.css), charts and dashboard functionality can be found in [charts.js](https://github.com/sucharita1/Plotly/blob/474511b531b72dc51c748604e9efea0bc056a09e/static/js/charts.js). The json data is [samples.json](https://github.com/sucharita1/Plotly/blob/474511b531b72dc51c748604e9efea0bc056a09e/Resources/samples.json).
 
 #### A Horizontal Bar Chart:
-We have created a horizontal bar chart to display the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage the code can be found in ![bar_chart](?raw =true)
+We have created a horizontal bar chart to display the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage the code can be found in the bar chart.
+![bar_chart](https://github.com/sucharita1/Plotly/blob/474511b531b72dc51c748604e9efea0bc056a09e/static/images/bar_chart.png?raw=true)
 
 When a sample is selected from the dropdown menu, arrays with bacteria information is created and passed as the trace object in the buildCharts() function then a layout is chosen and title created. When the dashboard is first opened in a browser, ID 940’s data is displayed in the dashboard, and the bar chart has the following: 
 * The top 10 sample_values are sorted in descending order
@@ -26,7 +27,8 @@ When a sample is selected from the dropdown menu, arrays with bacteria informati
 * The otu_ids as the labels
 
 #### A Bubble Chart:
-We have created a bubble chart to display bacteria cultures per sample i.e. corresponding sample values(bacterial species name for each OTU ID) against the OTU ID when an individual’s ID is selected from the dropdown menu on the webpage the code can be found in ![bubble_chart](?raw =true)
+We have created a bubble chart to display bacteria cultures per sample i.e. corresponding sample values(bacterial species name for each OTU ID) against the OTU ID when an individual’s ID is selected from the dropdown menu on the webpage the code can be found in the bubble chart.
+![bubble_chart](https://github.com/sucharita1/Plotly/blob/474511b531b72dc51c748604e9efea0bc056a09e/static/images/bubble_chart.png?raw=true)
 
  When a sample is selected from the dropdown menu, arrays with bacteria information is created and passed as the trace object in the buildCharts() function then a layout is chosen and title created. When the dashboard is first opened in a browser, ID 940’s data is displayed in the dashboard, and the bubble chart has the following: 
 * The otu_ids as the x-axis values.
@@ -36,7 +38,9 @@ We have created a bubble chart to display bacteria cultures per sample i.e. corr
 * The otu_labels as the hover-text values.
 
 #### A Gauge Chart:
-We have created a gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu on the webpage the code can be found in ![gauge_chart](?raw =true)
+We have created a gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu on the webpage the code can be found in gauge chart.
+
+![gauge_chart](https://github.com/sucharita1/Plotly/blob/474511b531b72dc51c748604e9efea0bc056a09e/static/images/gauge_chart.png?raw=true)
 
 When the dashboard is first opened in a browser, ID 940’s data is displayed in the dashboard, and the gauge chart has the following: 
 * A title for the chart.
@@ -47,12 +51,12 @@ When the dashboard is first opened in a browser, ID 940’s data is displayed in
 
 #### Customized Dashboard for the website:
 1. Added an image to the jumbotron.
-![jumbotron_background_image](?raw=true)
-2. Added background color to the webpage as well as charts with color #fff8f3.
-![chart_background_color](?raw=true)
-3. Add more information about the project as a paragraph on the page.
-![introductory_paragraph](?raw=true)
-4. Add customization to dropdown Subject ID selector with color #1f77b4 and font, font-color and font-size customization.
-![selection_dropdown_customized](?raw=true)
+![jumbotron_background_image](https://github.com/sucharita1/Plotly/blob/474511b531b72dc51c748604e9efea0bc056a09e/static/images/jumbotron_background_image.png?raw=true)
+2. Add more information about the project as a paragraph on the page.
+![introductory_paragraph](https://github.com/sucharita1/Plotly/blob/474511b531b72dc51c748604e9efea0bc056a09e/static/images/introductory_paragraph.png?raw=true)
+3. Add customization to dropdown Subject ID selector with color #1f77b4 and font, font-color and font-size customization.
+![selection_dropdown_customized](https://github.com/sucharita1/Plotly/blob/474511b531b72dc51c748604e9efea0bc056a09e/static/images/selection_dropdown_customized.png?raw=true)
+ 4. Added background color to the webpage as well as charts with color #fff8f3.
+![chart_background_color](https://github.com/sucharita1/Plotly/blob/474511b531b72dc51c748604e9efea0bc056a09e/static/images/chart_background_color.png?raw=true)
 
 
